@@ -1,3 +1,13 @@
+/* Import Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Alegreya+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
 .container-icon {
   display: inline-flex;
   align-items: center;
@@ -8,7 +18,7 @@
 }
 
 .hero-bg {
-  background-image: url("/assets/images/MineralTwo.jpg");
+  background-image: url("/assets/brandImages/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -17,4 +27,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.logo {
+  width: 200px;
 }
