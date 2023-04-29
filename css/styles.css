@@ -18,7 +18,8 @@
 }
 
 .hero-bg {
-  background-image: url("../assets/brandImages/MineralTwo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/brandImages/MineralTwo.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
